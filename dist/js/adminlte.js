@@ -7,7 +7,7 @@
 * @Author  Almsaeed Studio
 * @Support <https://www.almsaeedstudio.com>
 * @Email   <abdullah@almsaeedstudio.com>
-* @version 2.4.5
+* @version 2.4.8
 * @repository git://github.com/almasaeed2010/AdminLTE.git
 * @license MIT <http://opensource.org/licenses/MIT>
 */
@@ -614,7 +614,7 @@ throw new Error('AdminLTE requires jQuery')
     } else {
       var postSetHeight;
 
-      if (windowHeight >= sidebarHeight) {
+      if (windowHeight >= sidebarHeight + headerHeight) {
         $(Selector.contentWrapper).css('min-height', windowHeight - neg);
         postSetHeight = windowHeight - neg;
       } else {

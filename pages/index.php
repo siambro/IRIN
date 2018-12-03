@@ -1020,7 +1020,7 @@
 
                   <div class="form-group">
                     <!-- <label>Text</label> -->
-                    <input type="date" class="form-control" name="datetimes" placeholder="Going Date ..." data-parsley-required>
+                    <input type="text" class="form-control" name="datetimes" placeholder="Going Date ..." data-parsley-required>
                   </div>
 
                   <?php
